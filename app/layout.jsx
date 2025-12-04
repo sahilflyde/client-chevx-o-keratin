@@ -41,13 +41,13 @@ const JakartaFont = Plus_Jakarta_Sans({
 });
 
 // Map Google families → CSS variables already loaded
-const FONT_MAP = {
-  "Lato": LatoFont.variable,
-  "Inter": InterFont.variable,
-  "Poppins": PoppinsFont.variable,
-  "Roboto": RobotoFont.variable,
-  "Plus Jakarta Sans": JakartaFont.variable,
-};
+// const FONT_MAP = {
+//   "Lato": LatoFont.variable,
+//   "Inter": InterFont.variable,
+//   "Poppins": PoppinsFont.variable,
+//   "Roboto": RobotoFont.variable,
+//   "Plus Jakarta Sans": JakartaFont.variable,
+// };
 
 export default async function RootLayout({ children }) {
   const slug = process.env.SITE_SLUG;
@@ -59,36 +59,22 @@ export default async function RootLayout({ children }) {
 
   const site = await res.json();
 
-  // Resolve primary font
-  let primaryVar;
-  if (site.fonts.primary.type === "google") {
-    primaryVar = FONT_MAP[site.fonts.primary.family];
-  } else {
-    primaryVar = "--font-lato"; // custom font injected below
-  }
+  
 
-  // Resolve secondary font
-  let secondaryVar;
-  if (site.fonts.secondary.type === "google") {
-    secondaryVar = FONT_MAP[site.fonts.secondary.family];
-  } else {
-    secondaryVar = "--font-jakarata"; // custom font injected below
-  }
+  
+  // const customFontCSS = `
+  //   ${site.fonts.primary.type === "custom" ? 
+  //     `@font-face {
+  //       font-family: 'PrimaryCustom';
+  //       src: url(${site.fonts.primary.url}) format('truetype');
+  //     }` : ""}
 
-  // @font-face injection for custom fonts
-  const customFontCSS = `
-    ${site.fonts.primary.type === "custom" ? 
-      `@font-face {
-        font-family: 'PrimaryCustom';
-        src: url(${site.fonts.primary.url}) format('truetype');
-      }` : ""}
-
-    ${site.fonts.secondary.type === "custom" ? 
-      `@font-face {
-        font-family: 'SecondaryCustom';
-        src: url(${site.fonts.secondary.url}) format('truetype');
-      }` : ""}
-  `;
+  //   ${site.fonts.secondary.type === "custom" ? 
+  //     `@font-face {
+  //       font-family: 'SecondaryCustom';
+  //       src: url(${site.fonts.secondary.url}) format('truetype');
+  //     }` : ""}
+  // `;
 
   return (
     <html lang="en">
@@ -97,26 +83,19 @@ export default async function RootLayout({ children }) {
         <link rel="icon" href={site.favicon} />
 
         <style>{`
-          ${customFontCSS}
+         
 
           :root {
-            --font-lato: ${site.fonts.primary.type === "google" 
-              ? site.fonts.primary.family 
-              : "PrimaryCustom"};
-
-            --font-jakarata: ${site.fonts.secondary.type === "google"
-              ? site.fonts.secondary.family 
-              : "SecondaryCustom"};
-
+            
             --color-lime: ${site.colors[0]?.code};
             --color-blue-500: ${site.colors[1]?.code};
-            --color-white: ${site.colors[2]?.code};
+            // --color-white: ${site.colors[2]?.code};
             --color-blue-400: ${site.colors[3]?.code};
           }
         `}</style>
       </head>
 
-      <body className={`${primaryVar} ${secondaryVar}`}>
+      <body className={ JakartaFont.variable }>
         {children}
       </body>
     </html>

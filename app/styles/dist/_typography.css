@@ -1,0 +1,93 @@
+@charset "UTF-8";
+@font-face {
+  font-family: "CinemaSunday";
+  src: url("/fonts/cinemasunday.ttf") format("truetype");
+  font-style: normal;
+  font-display: swap;
+}
+/* ✅ Heading Variants */
+.h1 {
+  font-family: "CinemaSunday";
+  font-weight: 400;
+  color: var(--color-black-500);
+  font-size: calc( 36px + 28px * ((100vw - 390px) / (1050px)) );
+  line-height: 130%;
+}
+
+.h2 {
+  font-family: var(--font-lato);
+  font-weight: 600;
+  font-size: calc( 24px + 24px * ((100vw - 390px) / (1050px)) );
+  line-height: 120%;
+}
+
+.h3 {
+  font-family: var(--font-lato);
+  font-weight: 600;
+  font-size: calc( 20px + 4px * ((100vw - 390px) / (1050px)) );
+  line-height: 120%;
+}
+
+.h4 {
+  font-family: var(--font-lato);
+  font-weight: 500;
+  font-size: calc( 16px + 4px * ((100vw - 390px) / (1050px)) );
+  line-height: 120%;
+}
+
+.h5 {
+  font-family: var(--font-jakarta);
+  font-weight: 500;
+  font-size: calc( 16px + 2px * ((100vw - 390px) / (1050px)) );
+  line-height: 160%;
+}
+
+.h6 {
+  font-family: var(--font-jakarta);
+  font-weight: 600;
+  font-size: calc( 14px + 2px * ((100vw - 390px) / (1050px)) );
+  line-height: 120%;
+}
+
+/* ✅ Body Variants */
+.body-1 {
+  font-family: var(--font-lato);
+  font-weight: 400;
+  font-size: calc( 14px + 18px * ((100vw - 390px) / (1050px)) );
+  line-height: 120%;
+}
+
+.body-2 {
+  font-family: var(--font-jakarta);
+  font-weight: 400;
+  font-size: calc( 12px + 12px * ((100vw - 390px) / (1050px)) );
+  line-height: 160%;
+}
+
+.body-3 {
+  font-family: var(--font-jakarta);
+  font-weight: 400;
+  font-size: calc( 12px + 6px * ((100vw - 390px) / (1050px)) );
+  line-height: 160%;
+}
+
+.body-4 {
+  font-family: var(--font-jakarta);
+  font-weight: 400;
+  font-size: calc( 12px + 4px * ((100vw - 390px) / (1050px)) );
+  line-height: 150%;
+}
+
+.body-5 {
+  font-family: var(--font-jakarta);
+  font-weight: 400;
+  font-size: calc( 12px + 2px * ((100vw - 390px) / (1050px)) );
+  line-height: 150%;
+}
+
+.text-link {
+  font-family: var(--font-jakarta);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 25.6px;
+}

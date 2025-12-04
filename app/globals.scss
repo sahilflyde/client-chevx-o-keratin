@@ -2,7 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-
 @import "./styles/variables";
 @import "./styles/typography";
 @import "./styles/buttons";
@@ -37,20 +36,22 @@
   height: 0px;
 }
 
+
+
 body {
   background-color: var(--color-white);
   box-sizing: border-box;
   max-width: 1620px;
   width: 100%;
 }
-  
+
 html {
   display: flex;
   justify-content: center;
   scroll-behavior: smooth;
 }
 
-button{
+button {
   cursor: pointer;
 }
 
@@ -113,17 +114,16 @@ button{
   gap: var(--sp-40);
 }
 
-
 .hero-container {
   display: flex;
-  justify-content: space-between  ;
+  justify-content: space-between;
   flex-wrap: nowrap;
-  color: #000; 
+  color: #000;
 }
 
 /* Right section width */
 .hero-right {
-  width: 534px; 
+  width: 534px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -132,14 +132,13 @@ button{
 
 @media (max-width: 768px) {
   .hero-right {
-    width: 100%; 
+    width: 100%;
   }
-  .hero-container{
+  .hero-container {
     flex-wrap: wrap;
     gap: var(--sp-16);
   }
 }
-
 
 .hero-buttons {
   display: flex;
@@ -167,7 +166,7 @@ button{
   -webkit-column-break-inside: avoid;
   -moz-column-break-inside: avoid;
 }
- 
+
 .imageSec {
   border-radius: var(--radius-lg);
   background-color: var(--color-blue-300);
@@ -372,14 +371,13 @@ button{
         border-color: var(--color-lime);
         background: var(--color-white);
       }
-      
+
       &::placeholder {
         color: #aaa;
       }
     }
   }
 }
-
 
 .loader {
   width: 30px;

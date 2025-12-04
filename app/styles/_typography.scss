@@ -9,11 +9,20 @@
   );
 }
 
+@font-face {
+  font-family: "CinemaSunday";
+  src: url("/fonts/cinemasunday.ttf") format("truetype");
+  font-style: normal;
+  font-display: swap;
+}
+
+
+
 /* ✅ Heading Variants */
 .h1 {
-  font-family: var(--font-lato);
-  font-weight: 600;
-  // color: var(--color-black-500);
+  font-family: "CinemaSunday";
+  font-weight: 400;
+  color: var(--color-black-500);
   font-size: fluid(36px, 64px);
   line-height: 130%;
 }

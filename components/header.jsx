@@ -18,8 +18,7 @@ export default function Header({ logo, navLinks = [], ctaText, ctaLink }) {
             <img
               src={logo}
               alt="Logo"
-              width={140.3}
-              height={37}
+              
               className="header-logo"
             />
           </Link>
