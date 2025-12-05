@@ -60,8 +60,8 @@ export default function Footer({
                 <Link href="/" className="footer__logo">
                   <Image
                     src={logo || "https://placehold.co/100x40"}
-                    width={100}
-                    height={40}
+                    width={200}
+                    height={100}
                     alt="logo"
                   />
                 </Link>

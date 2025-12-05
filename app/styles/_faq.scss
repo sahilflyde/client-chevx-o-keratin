@@ -7,7 +7,7 @@
 .faq-item {
   border-radius: var(--radius-xs);
   padding: var(--sp-24) var(--sp-32);
-  background-color: var(--color-white);
+  background-color: var(--color-black-500);
   cursor: pointer;
   transition: all 0.3s ease;
 
@@ -18,13 +18,18 @@
   &.active {
     background-color: var(--color-blue-300);
     border-color: #d0d3ff;
+
+    .faq-question{
+      color: var(--color-black-500);
+    }
+   
   }
 
   .faq-question {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    color: var(--color-black-500);
+    color: var(--color-white);
   }
 
   .faq-icon {

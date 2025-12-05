@@ -1436,7 +1436,7 @@ video {
   --color-lime: #ccef55;
   --color-blue-500: #afb7ff;
   --color-blue-400: #c7cdff;
-  --color-blue-300: #f7f8ff;
+  --color-blue-300: #f4f2ef;
   --color-black-300: #aaaaaa;
   --color-black-400: #636363;
   --color-black-500: #2C2525;
@@ -2258,7 +2258,7 @@ video {
 .faq-item {
   border-radius: var(--radius-xs);
   padding: var(--sp-24) var(--sp-32);
-  background-color: var(--color-white);
+  background-color: var(--color-black-500);
   cursor: pointer;
   transition: all 0.3s ease;
 }
@@ -2271,11 +2271,14 @@ video {
   background-color: var(--color-blue-300);
   border-color: #d0d3ff;
 }
+.faq-item.active .faq-question {
+  color: var(--color-black-500);
+}
 .faq-item .faq-question {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  color: var(--color-black-500);
+  color: var(--color-white);
 }
 .faq-item .faq-icon {
   display: flex;
@@ -2659,8 +2662,8 @@ video {
   max-width: 100%;
 }
 .footer__brand .footer__logo img {
-  width: 203.41px;
-  height: 53px;
+  width: 232px;
+  height: 34px;
 }
 .footer__brand .footer__desc {
   max-width: 100%;
@@ -2854,7 +2857,7 @@ video {
   content: "";
   position: absolute;
   inset: 0;
-  background-color: rgba(199, 205, 255, 0.808);
+  background-color: rgba(184, 156, 139, 0.808);
   z-index: 0;
 }
 .transform-card .transform-card-content {
