@@ -236,7 +236,7 @@ export default function Testimonial({ items = [] }) {
             </div>
           </div>
 
-          <div className="slick-dots flex justify-center gap-2 mt-4">
+          {/* <div className="slick-dots flex justify-center gap-2 mt-4">
             {items.map((_, i) => (
               <motion.button
                 key={i}
@@ -259,7 +259,7 @@ export default function Testimonial({ items = [] }) {
                 className="h-2 rounded-full"
               />
             ))}
-          </div>
+          </div> */}
         </div>
       </section>
     </Container>

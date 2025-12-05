@@ -18,7 +18,7 @@
     content: "";
     position: absolute;
     inset: 0;
-    background-color: rgba(199, 205, 255, 0.808); // overlay tint
+    background-color: rgba(#b89c8b, 0.808);
     z-index: 0;
   }
 
@@ -30,12 +30,12 @@
 
   .cta-title {
     margin-bottom: var(--sp-24);
-    color: black ;
+    color: black;
   }
 
   .cta-desc {
     margin-bottom: var(--sp-56);
-    color: black ;
+    color: black;
   }
 
   @media (max-width: 680px) {
