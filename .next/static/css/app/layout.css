@@ -2860,6 +2860,7 @@ video {
 .transform-card .cta-desc {
   margin-bottom: var(--sp-56);
   color: black;
+  
 }
 @media (max-width: 680px) {
   .transform-card .transform-card-content {
