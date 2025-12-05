@@ -1169,6 +1169,7 @@ img,
 video {
   max-width: 100%;
   height: auto;
+  border-radius: var(--sp-18);
 }
 /* Make elements with the HTML hidden attribute stay hidden by default */
 [hidden]:where(:not([hidden="until-found"])) {
@@ -1440,6 +1441,7 @@ video {
   --sp-10: 10px;
   --sp-12: 12px;
   --sp-16: 16px;
+  --sp-18: 18px;
   --sp-20: 20px;
   --sp-24: 24px;
   --sp-25: 25px;
@@ -1718,7 +1720,7 @@ video {
   border: 0.5px solid var(--color-black-500);
 }
 .btn--white {
-  background: var(--color-black-500);
+  background: var(--color-white);
   border: 0.5px solid transparent;
   transition: 0.2s ease-in-out;
 }
@@ -1734,13 +1736,13 @@ video {
   border: 0.5px solid var(--color-black-500);
 }
 .btn {
-  /* color: var(--color-white); */
+  /* Icon */
 }
 .btn .btn-icon {
   width: 40px;
   height: 40px;
   border-radius: 48px;
-  background: var(--color-white);
+  background: white;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -2844,7 +2846,7 @@ video {
   content: "";
   position: absolute;
   inset: 0;
-  background-color: rgba(184, 156, 139, 0.808);
+  background-color: rgba(199, 205, 255, 0.808);
   z-index: 0;
 }
 .transform-card .transform-card-content {
@@ -2859,7 +2861,6 @@ video {
 .transform-card .cta-desc {
   margin-bottom: var(--sp-56);
   color: black;
-
 }
 @media (max-width: 680px) {
   .transform-card .transform-card-content {
