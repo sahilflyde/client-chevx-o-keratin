@@ -24,7 +24,7 @@ export default function WhyChoose({
           <div className="why-left">
             <div className="why-left-content">
               <Label className="lable" text={label} />
-              <Typography variant="h2" className="why-title">
+              <Typography variant="h1" className="why-title">
                 {title}
               </Typography>
 

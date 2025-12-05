@@ -80,7 +80,7 @@ export default function GridSection({
       />
 
       <div
-        className="grid gridSectionAuto !auto-rows-max !items-between grid-cols-3 grid-flow-col"
+        className="grid !col-gap-40 !auto-rows-max !items-between grid-cols-3 w-fit"
         style={{
           gap: gap,
           gridTemplateColumns: `repeat(${columns}, minmax(${minColWidth}, 1fr))`,

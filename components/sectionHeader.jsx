@@ -31,7 +31,7 @@ export default function SectionHeader({
       {title && (
         <div className="  w-full ">
           {" "}
-          <Typography variant="h2" style={{ whiteSpace: "pre-line" }}>
+          <Typography variant="h1" style={{ whiteSpace: "pre-line" }}>
             {title}
           </Typography>{" "}
         </div>
