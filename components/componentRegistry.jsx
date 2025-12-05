@@ -12,6 +12,8 @@ import PricingSection from "./PricingSection";
 import FAQSection from "./FaqSection";
 import TestimonialSection from "./testimonial";
 import Footer from "./footer";
+import Logo from "./logo";
+import OurServices from "./ourServices";
 
 export const componentRegistry = {
   "header-sec": Header,
@@ -26,5 +28,7 @@ export const componentRegistry = {
   "pricing-section": PricingSection,
   "faq-section": FAQSection,
   "testimonials-section": TestimonialSection,
-  "footer-section": Footer
+  "footer-section": Footer,
+  "logo-section" : Logo,
+  "our-services" : OurServices
 };
