@@ -80,7 +80,7 @@ const TransformSection = ({
               </Typography>
             </motion.div>
 
-            {/* <motion.div variants={textItem}>
+            <motion.div variants={textItem}>
               <Button
                 variant="white"
                 size="smTwo"
@@ -103,7 +103,7 @@ const TransformSection = ({
               >
                 <Typography variant="h4">{btnText}</Typography>
               </Button>
-            </motion.div> */}
+            </motion.div>
           </motion.div>
         </motion.div>
       </motion.section>
