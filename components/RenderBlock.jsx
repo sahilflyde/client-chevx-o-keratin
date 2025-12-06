@@ -1,9 +1,15 @@
-
 "use client";
 import { componentRegistry } from "./componentRegistry";
 
 export default function RenderBlock({ block }) {
   const Comp = componentRegistry[block.type];
   if (!Comp) return null;
-  return <Comp {...block.props} children={block.children} />;
+
+  return (
+    <Comp
+      {...block.props}
+      className={`${block.props?.className || ""} whitespace-pre-line`}
+      children={block.children}
+    />
+  );
 }
