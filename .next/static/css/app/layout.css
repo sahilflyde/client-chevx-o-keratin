@@ -1256,10 +1256,6 @@ video {
 .w-\[79px\]{
   width: 79px;
 }
-.w-fit{
-  width: -moz-fit-content;
-  width: fit-content;
-}
 .w-full{
   width: 100%;
 }
@@ -1286,6 +1282,9 @@ video {
 .grid-flow-col{
   grid-auto-flow: column;
 }
+.\!grid-flow-dense{
+  grid-auto-flow: dense !important;
+}
 .\!auto-rows-max{
   grid-auto-rows: max-content !important;
 }
@@ -1294,9 +1293,6 @@ video {
 }
 .grid-cols-2{
   grid-template-columns: repeat(2, minmax(0, 1fr));
-}
-.grid-cols-3{
-  grid-template-columns: repeat(3, minmax(0, 1fr));
 }
 .\!flex-row{
   flex-direction: row !important;
@@ -2307,28 +2303,72 @@ video {
   opacity: 1;
 }
 
-.lable {
-  display: inline-block;
+.label {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--sp-8);
   padding: var(--sp-8) var(--sp-16);
   font-size: 16px;
   font-family: var(--font-jakarta);
   font-weight: 400;
   line-height: 150%;
   border-radius: var(--radius-md);
+  width: -moz-max-content;
+  width: max-content;
+  cursor: pointer;
+}
+.label--primary {
   background-color: var(--color-blue-300);
+}
+.label--primary * {
   color: var(--color-black-400);
 }
+.label--secondary {
+  background-color: var(--color-blue-300);
+}
+.label--secondary * {
+  color: var(--color-black-400);
+}
+.label--greenVariant {
+  background-color: var(--color-lime-light);
+}
+.label--greenVariant * {
+  color: var(--color-lime);
+}
+.label {
+  /* ---------------------------------------------
+       NEW TAB VARIANT
+  ---------------------------------------------- */
+}
+.label--tab {
+  background-color: transparent;
+  border: 1px solid #D6D2CF;
+}
+.label--tab * {
+  color: #8A807A;
+}
+.label {
+  /* ---------------------------------------------
+       TAB ACTIVE STATE
+  ---------------------------------------------- */
+}
+.label--active {
+  background-color: #B89C8B !important;
+}
+.label--active * {
+  color: #F4F2EF !important;
+}
 
+/* Responsive fix */
 @media (max-width: 600px) {
-  .lable {
+  .label {
     font-size: 14px;
   }
 }
 .imageCard {
   display: flex;
   flex-direction: column;
-  width: -moz-fit-content;
-  width: fit-content;
+  width: 100%;
   border-radius: var(--radius-md);
   background-color: var(--color-blue-300);
   max-width: 429px;
@@ -3878,6 +3918,14 @@ video {
     padding: var(--sp-12) var(--sp-16);
   }
 }
+.tabs {
+  display: flex;
+  flex-direction: row;
+  gap: var(--sp-16);
+  margin: 0 auto;
+  justify-content: center;
+}
+
 ::-webkit-scrollbar {
   width: 0px;
   height: 0px;

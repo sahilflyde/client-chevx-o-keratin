@@ -14,6 +14,7 @@ import TestimonialSection from "./testimonial";
 import Footer from "./footer";
 import Logo from "./logo";
 import OurServices from "./ourServices";
+import Tabs from "./tabs";
 
 export const componentRegistry = {
   "header-sec": Header,
@@ -30,5 +31,6 @@ export const componentRegistry = {
   "testimonials-section": TestimonialSection,
   "footer-section": Footer,
   "logo-section" : Logo,
-  "our-services" : OurServices
+  "our-services" : OurServices,
+  "tabs-section" : Tabs
 };
