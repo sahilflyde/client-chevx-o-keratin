@@ -1170,7 +1170,7 @@ video {
   max-width: 100%;
   height: auto;
   border-radius: var(--sp-18);
-  margin-bottom: var(--sp-12);
+  margin-bottom: var(--sp-16);
 }
 /* Make elements with the HTML hidden attribute stay hidden by default */
 [hidden]:where(:not([hidden="until-found"])) {
@@ -2385,7 +2385,7 @@ video {
   display: flex;
   flex-direction: column;
   gap: var(--sp-16);
-  /* padding: var(--sp-24) var(--sp-32); */
+  padding: var(--sp-24) var(--sp-32);
 }
 
 @media (max-width: 1100px) and (min-width: 300px) {
@@ -2396,15 +2396,16 @@ video {
 @media (max-width: 500px) {
   .imageCard {
     width: 100%;
-    padding: var(--sp-16);
   }
 }
 @media (max-width: 600px) {
   .imageCard {
     width: 100%;
+    padding: var(--sp-16);
   }
   .cardHead {
-    /* padding: var(--sp-24); */
+    padding: 0px;
+    margin-bottom: var(--sp-16);
   }
 }
 /* Static Navbar - Uses global spacing from Container */

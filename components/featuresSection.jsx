@@ -57,7 +57,8 @@ export default function FeaturesSection({
               ),
               rowSpan: card.rowSpan || 1,
               colSpan: card.colSpan || 1,
-            }))}
+            }))
+          }
           />
         </Container>
       ) : isDesktop ? (
