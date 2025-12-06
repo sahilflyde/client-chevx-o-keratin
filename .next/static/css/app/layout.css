@@ -1169,6 +1169,8 @@ img,
 video {
   max-width: 100%;
   height: auto;
+  border-radius: var(--sp-18);
+  margin-bottom: var(--sp-12);
 }
 /* Make elements with the HTML hidden attribute stay hidden by default */
 [hidden]:where(:not([hidden="until-found"])) {
@@ -1288,14 +1290,11 @@ video {
 .\!auto-rows-max{
   grid-auto-rows: max-content !important;
 }
-.\!grid-cols-2{
-  grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+.\!grid-cols-3{
+  grid-template-columns: repeat(3, minmax(0, 1fr)) !important;
 }
 .grid-cols-2{
   grid-template-columns: repeat(2, minmax(0, 1fr));
-}
-.\!grid-cols-3{
-  grid-template-columns: repeat(3, minmax(0, 1fr)) !important;
 }
 .\!flex-row{
   flex-direction: row !important;
@@ -2375,20 +2374,18 @@ video {
   border-radius: var(--radius-md);
   background-color: var(--color-blue-300);
   max-width: 429px;
-  padding: var(--sp-16);
+  padding: var(--sp-32);
 }
 
 .cardImg {
   width: 100%;
 }
 
-
-
 .cardHead {
   display: flex;
   flex-direction: column;
   gap: var(--sp-16);
-  padding: var(--sp-24) var(--sp-32);
+  /* padding: var(--sp-24) var(--sp-32); */
 }
 
 @media (max-width: 1100px) and (min-width: 300px) {
@@ -2399,6 +2396,7 @@ video {
 @media (max-width: 500px) {
   .imageCard {
     width: 100%;
+    padding: var(--sp-16);
   }
 }
 @media (max-width: 600px) {
@@ -2406,7 +2404,7 @@ video {
     width: 100%;
   }
   .cardHead {
-    padding: var(--sp-24);
+    /* padding: var(--sp-24); */
   }
 }
 /* Static Navbar - Uses global spacing from Container */
@@ -3925,6 +3923,7 @@ video {
 }
 .tabs {
   display: flex;
+  flex-wrap: wrap;
   flex-direction: row;
   gap: var(--sp-16);
   margin: 0 auto;

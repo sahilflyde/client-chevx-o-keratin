@@ -113,7 +113,7 @@ export default function Testimonial({ items = [] }) {
                 setIsFirstCard(false);
               }}
             >
-              <Image src="" alt="Previous" width={50} height={50} />
+              <Image src="https://ik.imagekit.io/75zj3bigp/Icon%20(16).png" alt="Previous" width={50} height={50} />
             </button>
             <button
               className="next"
@@ -123,7 +123,7 @@ export default function Testimonial({ items = [] }) {
                 setIsFirstCard(false);
               }}
             >
-              <Image src="" alt="Next" width={50} height={50} />
+              <Image src="https://ik.imagekit.io/75zj3bigp/Icon%20(15).png" alt="Next" width={50} height={50} />
             </button>
           </div>
 
