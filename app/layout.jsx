@@ -1,6 +1,7 @@
 import "./globals.scss";
 import RenderBlock from "../components/RenderBlock";
 
+
 export default async function RootLayout({ children }) {
   const slug = process.env.SITE_SLUG;
 
@@ -8,13 +9,9 @@ export default async function RootLayout({ children }) {
     `https://blinkflo-backend-vx9r.onrender.com/api/websites/${slug}`,
     { cache: "no-store" },
   );
-
-  console.log("Slug  : ", slug);
-  console.log(" Response : ", res);
-
   const site = await res.json();
 
-  console.log("Site :", site);
+  console.log("Site : ", site)
 
   // ✅ Decide active color set
   const activeColors =

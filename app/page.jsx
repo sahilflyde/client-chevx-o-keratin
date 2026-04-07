@@ -15,6 +15,8 @@ export default async function Page() {
   const site = await res.json();
   const pageData = site?.pages?.find(p => p.route === "home");
 
+  // console.log(pageData)
+
   if (!pageData) {
     return <main>Page not found.</main>;
   }

@@ -7,6 +7,8 @@ import WhyChoose from "./whyChoose";
 import Logo from "./logo";
 import Tabs from "./tabs";
 import TransformSection from "./TransformSection";
+import Header from "./header";
+import Footer from "./footer";
 
 export const componentRegistry = {
   "hero-section": HeroSection,
@@ -16,5 +18,7 @@ export const componentRegistry = {
   "why-choose": WhyChoose,
   "logo-section": Logo,
   "tabs-section": Tabs,
-  "transform-section": TransformSection
+  "transform-section": TransformSection,
+  "header-sec": Header,
+  "footer-section": Footer,
 };
