@@ -1,1 +1,10 @@
-{"compilerOptions":{"baseUrl":".","paths":{"@/*":["*"]}}
+{
+  "$schema": "https://json.schemastore.org/jsconfig",
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["./*"]
+    }
+  },
+  "exclude": ["node_modules"]
+}
