@@ -1,4 +1,3 @@
-
 import "./globals.scss";
 import RenderBlock from "../components/RenderBlock";
 
@@ -6,16 +5,20 @@ export default async function RootLayout({ children }) {
   const slug = process.env.SITE_SLUG;
 
   const res = await fetch(
-    `https://blinkflo-backend.onrender.com/api/websites/${slug}`,
-    { cache: "no-store" }
+    `https://blinkflo-backend-vx9r.onrender.com/api/websites/${slug}`,
+    { cache: "no-store" },
   );
+
+  console.log("Slug  : ", slug);
+  console.log(" Response : ", res);
+
   const site = await res.json();
+
+  console.log("Site :", site);
 
   // ✅ Decide active color set
   const activeColors =
-    site?.darkmodeOn && site?.darkcolors
-      ? site.darkcolors
-      : site?.colors || {};
+    site?.darkmodeOn && site?.darkcolors ? site.darkcolors : site?.colors || {};
 
   // ✅ Generate CSS variables
   const cssVariables = Object.entries(activeColors)
@@ -50,10 +53,7 @@ export default async function RootLayout({ children }) {
 
         {/* GLOBAL FOOTER */}
         {site.layout?.footer && (
-          <RenderBlock
-            block={site.layout.footer}
-            site={site}
-          />
+          <RenderBlock block={site.layout.footer} site={site} />
         )}
       </body>
     </html>

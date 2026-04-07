@@ -1,14 +1,15 @@
 "use client";
 
 import Image from "next/image";
-import Typography from "@/componentsForm/ui-kit/typography";
-import { Container } from "@/componentsForm/ui-kit/spacing";
+import Container from "./spacing";
+import Typography from "./typography";
+
 
 const OurServices = ({
   imageSrc,
   eyebrow,
   title,
-  cardIcon,
+  cardIcon, 
   cardHeading,
   cardShortDesc,
   cardLongDesc,
