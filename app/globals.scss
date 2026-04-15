@@ -42,6 +42,19 @@
   height: 0px;
 }
 
+
+@font-face {
+  font-family: "CinemaSunday";
+  src: url("https://ik.imagekit.io/flyde/cinema%20sunday.ttf") format("ttf");
+  font-weight: 400 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+:root {
+  --font-heading: CinemaSunday;
+}
+
 body {
   background-color: var(--color-white);
   box-sizing: border-box;

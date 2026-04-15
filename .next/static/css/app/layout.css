@@ -737,6 +737,11 @@ video {
     font-family: var(--font-lato);
   }
 }
+.h1,
+.h2 {
+  font-family: var(--font-heading) !important;
+}
+
 .h3 {
   font-size: 24px;
   line-height: 120%;
@@ -2536,7 +2541,7 @@ video {
   content: "";
   position: absolute;
   inset: 0;
-  background-color: rgba(199, 205, 255, 0.808);
+  background-color: rgba(184, 156, 139, 0.808);
   z-index: 0;
 }
 .transform-card .transform-card-content {
@@ -2546,7 +2551,7 @@ video {
 }
 .transform-card .cta-title {
   margin-bottom: var(--sp-24);
-  color: black;
+  color: white;
 }
 .transform-card .cta-desc {
   margin-bottom: var(--sp-56);
@@ -3570,6 +3575,17 @@ video {
 ::-webkit-scrollbar {
   width: 0px;
   height: 0px;
+}
+
+@font-face {
+  font-family: "CinemaSunday";
+  src: url("https://ik.imagekit.io/flyde/cinema%20sunday.ttf") format("ttf");
+  font-weight: 400 600;
+  font-style: normal;
+  font-display: swap;
+}
+:root {
+  --font-heading: CinemaSunday;
 }
 
 body {

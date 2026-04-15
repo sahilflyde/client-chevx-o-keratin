@@ -7,7 +7,6 @@
   line-height: 130%;
   font-weight: 600;
   color: var(--color-black-500);
-  font-family: var(--font-lato);
 }
 
 @media (max-width: 1440px) {
@@ -72,6 +71,11 @@
     font-family: var(--font-lato);
   }
 }
+.h1,
+.h2 {
+  font-family: var(--font-heading) !important;
+}
+
 .h3 {
   font-size: 24px;
   line-height: 120%;
@@ -2907,6 +2911,17 @@
 ::-webkit-scrollbar {
   width: 0px;
   height: 0px;
+}
+
+@font-face {
+  font-family: "CinemaSunday";
+  src: url("https://ik.imagekit.io/flyde/cinema%20sunday.ttf") format("ttf");
+  font-weight: 400 600;
+  font-style: normal;
+  font-display: swap;
+}
+:root {
+  --font-heading: CinemaSunday;
 }
 
 body {
