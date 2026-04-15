@@ -657,13 +657,13 @@ video {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transition-duration: 150ms;
 }
-.transition-transform{
-  transition-property: transform;
+.transition-colors{
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transition-duration: 150ms;
 }
-.transition-colors{
-  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke;
+.transition-transform{
+  transition-property: transform;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transition-duration: 150ms;
 }
@@ -3480,6 +3480,91 @@ video {
   display: flex;
   justify-content: space-between;
   font-size: 0.95rem;
+}
+
+.our-services {
+  display: flex;
+  justify-content: center;
+}
+.our-services__inner {
+  width: 100%;
+  max-width: var(--layout-max-width);
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1.05fr 1fr;
+  align-items: center;
+  gap: var(--sp-56);
+}
+.our-services__media {
+  display: flex;
+  justify-content: center;
+}
+.our-services__image-wrapper {
+  position: relative;
+  overflow: hidden;
+}
+.our-services__image {
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: var(--radius-lg);
+}
+.our-services__content {
+  display: flex;
+  flex-direction: column;
+  gap: var(--sp-24);
+}
+.our-services__title {
+  color: var(--color-black-500);
+}
+.our-services__card {
+  display: flex;
+  align-items: flex-start;
+  gap: var(--sp-20);
+  border-radius: var(--radius-xs);
+}
+.our-services__card-body {
+  display: flex;
+  flex-direction: column;
+  gap: var(--sp-8);
+}
+.our-services__card-text {
+  color: var(--color-black-400);
+}
+.our-services__description {
+  max-width: 640px;
+  color: var(--color-black-400);
+}
+
+@media (max-width: 1024px) {
+  .our-services {
+    padding: var(--sp-56) var(--sp-24);
+  }
+  .our-services__inner {
+    grid-template-columns: 1fr;
+    gap: var(--sp-40);
+  }
+  .our-services__media {
+    order: -1;
+  }
+}
+@media (max-width: 600px) {
+  .our-services {
+    padding: var(--sp-40) var(--sp-20);
+  }
+  .our-services__image-wrapper {
+    border-radius: var(--radius-lg);
+  }
+  .our-services__card {
+    padding: var(--sp-12) var(--sp-16);
+  }
+}
+.tabs {
+  display: flex;
+  flex-direction: row;
+  gap: var(--sp-16);
+  margin: 0 auto;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 
 ::-webkit-scrollbar {

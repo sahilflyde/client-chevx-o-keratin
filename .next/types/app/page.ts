@@ -1,4 +1,4 @@
-// File: D:\Flyde\test\client-chevx-o-keratin\app\page.jsx
+// File: D:\Flyde\test-chvxo-keratin\client-chevx-o-keratin\app\page.jsx
 import * as entry from '../../../app/page.js'
 import type { ResolvingMetadata, ResolvingViewport } from 'next/dist/lib/metadata/types/metadata-interface.js'
 

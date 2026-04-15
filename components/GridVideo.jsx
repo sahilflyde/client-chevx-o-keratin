@@ -7,9 +7,9 @@ export default function GridVideo({
   title = "Discover Hirezy",
   subtitle = "From intuitive, user-friendly tools to advanced integrations with the platforms you already use, Hirezy streamlines the hiring journey so your team can focus on what matters most: finding and securing the right talent.",
   centerTitle = "center",
-  videoSrc = "https://ik.imagekit.io/a9uxeuyhx/5439079-uhd_3840_2160_25fps.mp4?updatedAt=1762022380391",
-  imageSrc = "",
-  compVariant = "video",
+  videoSrc = "",
+  imageSrc = "https://ik.imagekit.io/flyde/Image%20(6).png",
+  compVariant = "image",
 }) {
   useEffect(() => {
     const initializeVideoAnimation = () => {

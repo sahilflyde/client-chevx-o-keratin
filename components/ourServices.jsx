@@ -9,7 +9,7 @@ const OurServices = ({
   imageSrc,
   eyebrow,
   title,
-  cardIcon, 
+  cardIcon,
   cardHeading,
   cardShortDesc,
   cardLongDesc,
