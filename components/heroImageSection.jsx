@@ -6,25 +6,25 @@ export default function HeroImageSection({
   leftImage,
   rightImage,
   className,
-  compVariant = "default",
+  compVariant = "full",
 }) {
   if (compVariant === "full") {
     return (
       <section
         className={clsx(
-          "w-full flex justify-center pb-[50px] imageSec !p-0 !bg-none !px-0",
+          "!w-full flex justify-center pb-[50px] imageSec !p-0 !bg-none !px-0",
           className
         )}
       >
-        <div className="w-full  ">
+        <div className="!w-full  ">
           {mainImage && (
             <img
               src={mainImage}
               alt="hero"
               className="
-                w-full h-auto 
+                !w-full h-auto 
                 rounded-[20px]   
-                object-cover border-none
+                !object-cover border-none
               "
             />
           )}
