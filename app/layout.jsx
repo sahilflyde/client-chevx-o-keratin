@@ -1,17 +1,25 @@
 import "./globals.scss";
 import RenderBlock from "../components/RenderBlock";
 
-
 export default async function RootLayout({ children }) {
-  const slug = process.env.SITE_SLUG;
+  const baseUrl = "https://chevxokeratin.com";
 
-  const res = await fetch(
-    `https://blinkflo-backend-vx9r.onrender.com/api/websites/${slug}`,
-    { cache: "no-store" },
-  );
-  const site = await res.json();
+  const res = await fetch(`${baseUrl}/site.json`, {
+    cache: "no-store",
+  });
 
-  console.log("Site : ", site)
+  if (!res.ok) {
+    return (
+      <html>
+        <body>Failed to load site</body>
+      </html>
+    );
+  }
+
+  const data = await res.json();
+
+  // ✅ handle array or object
+  const site = Array.isArray(data) ? data[0] : data;
 
   // ✅ Decide active color set
   const activeColors =
@@ -22,13 +30,21 @@ export default async function RootLayout({ children }) {
     .map(([key, value]) => `--color-${key}: ${value};`)
     .join("\n");
 
+  // ✅ Fonts (important)
+  const fontLinks = site?.fonts?.google || [];
+
   return (
     <html lang="en">
       <head>
         <title>{site.websiteName}</title>
         <link rel="icon" href={site.favicon} />
 
-        {/* ✅ Inject dynamic CSS variables */}
+        {/* ✅ Google Fonts */}
+        {fontLinks.map((font) => (
+          <link key={font.family} href={font.importUrl} rel="stylesheet" />
+        ))}
+
+        {/* ✅ CSS Variables */}
         <style>{`
           :root {
             ${cssVariables}
@@ -37,7 +53,7 @@ export default async function RootLayout({ children }) {
       </head>
 
       <body>
-        {/* GLOBAL HEADER */}
+        {/* HEADER */}
         {site.layout?.header && (
           <RenderBlock
             block={site.layout.header}
@@ -48,7 +64,7 @@ export default async function RootLayout({ children }) {
 
         {children}
 
-        {/* GLOBAL FOOTER */}
+        {/* FOOTER */}
         {site.layout?.footer && (
           <RenderBlock block={site.layout.footer} site={site} />
         )}

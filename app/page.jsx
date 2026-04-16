@@ -1,21 +1,26 @@
-
 import dynamic from "next/dynamic";
-const RenderBlock = dynamic(() => import("../components/RenderBlock"), { ssr: false });
+
+const RenderBlock = dynamic(() => import("../components/RenderBlock"), {
+  ssr: false,
+});
 
 export default async function Page() {
-  const res = await fetch(
-    "https://blinkflo-backend-vx9r.onrender.com/api/websites/chevx-o-keratin",
-    { cache: "no-store" },
-  );
+  const baseUrl = "https://chevxokeratin.com";
+
+  const res = await fetch(`${baseUrl}/site.json`, {
+    cache: "no-store",
+  });
 
   if (!res.ok) {
     return <main>Failed to load content.</main>;
   }
 
-  const site = await res.json();
-  const pageData = site?.pages?.find(p => p.route === "home");
+  const data = await res.json();
 
-  // console.log(pageData)
+  // ✅ handle array / object both
+  const site = Array.isArray(data) ? data[0] : data;
+
+  const pageData = site?.pages?.find((p) => p.route === "home");
 
   if (!pageData) {
     return <main>Page not found.</main>;
@@ -23,10 +28,9 @@ export default async function Page() {
 
   return (
     <main>
-    {pageData.components?.map((b, i) => (
-      <RenderBlock key={i} block={b} site={site} />
-    ))}
-    
+      {pageData.components?.map((b, i) => (
+        <RenderBlock key={i} block={b} site={site} />
+      ))}
     </main>
   );
 }

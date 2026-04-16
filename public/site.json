@@ -1,0 +1,763 @@
+[{
+  "_id": {
+    "$oid": "69413b2db0e0c783a19e4db6"
+  },
+  "siteId": "site_1765882669069",
+  "websiteName": "ChevX o Keratin",
+  "slug": "chevx-o-keratin",
+  "pages": [
+    {
+      "name": "home",
+      "route": "home",
+      "components": [
+        {
+          "type": "hero-section",
+          "props": {
+            "heading": "Crafted for\nExceptional Hair",
+            "description": "Inspired by Brazil’s rich beauty culture, chevx o keratin is a professional hair care brand created for elevated salon results. Developed with expert insight and high-performance ingredients, our meticulously crafted formulas smooth, soften, and refine hair with precision—delivering polished, confident results that look and feel impeccably finished.",
+            "primaryBtnText": "Product Range",
+            "primaryBtnLink": "productRangeSection",
+            "secondaryBtnText": "Natural Extracts",
+            "secondaryBtnLink": "naturalExtractsSection",
+            "mainImage": "https://ik.imagekit.io/75zj3bigp/iStock-1147785524-min%20(new%203).jpg",
+            "leftImage": "",
+            "rightImage": ""
+          },
+          "children": []
+        },
+        {
+          "type": "target-audience",
+          "props": {
+            "label": "Selected",
+            "title": "Natural Extracts",
+            "subtitle": "Our commitment is to use active ingredients of natural origin wherever possible without compromising the quality of the formulas and the results.",
+            "columns": 3,
+            "gap": 30,
+            "minColWidth": 320,
+            "items": [
+              {
+                "heading": "Marine Algae Collagen",
+                "description": "A nutrient-rich marine complex that helps improve hair strength, elasticity, and moisture balance.",
+                "imageLink": "https://ik.imagekit.io/75zj3bigp/Marine%20algae%20collagen.png",
+                "textPosition": "bottom"
+              },
+              {
+                "heading": "Açai oil",
+                "description": "A powerful antioxidant oil that helps protect hair while enhancing softness and shine.",
+                "imageLink": "https://ik.imagekit.io/75zj3bigp/acai%20oil.png",
+                "textPosition": "bottom"
+              },
+              {
+                "heading": "Shea Butter",
+                "description": "A rich botanical butter that deeply nourishes, softens dry hair, and improves overall smoothness.",
+                "imageLink": "https://ik.imagekit.io/75zj3bigp/shea%20butter.png",
+                "textPosition": "bottom"
+              },
+              {
+                "heading": "Jojoba oil",
+                "description": "A lightweight oil that closely mimics natural scalp oils, helping to balance moisture and smooth hair.",
+                "imageLink": "https://ik.imagekit.io/75zj3bigp/jojoba%20oil.png",
+                "textPosition": "bottom"
+              },
+              {
+                "heading": "Coconut",
+                "description": "A deeply penetrating oil that helps repair, soften, and protect hair from moisture loss.",
+                "imageLink": "https://ik.imagekit.io/75zj3bigp/coconut%20oil.png",
+                "textPosition": "bottom"
+              },
+              {
+                "heading": "Sugarcane",
+                "description": "A natural humectant that helps attract and retain moisture, leaving hair smoother and more supple.",
+                "imageLink": "https://ik.imagekit.io/75zj3bigp/24a087c016e9a3fb94b196fce630c505dae1a7cb.jpg?updatedAt=1764934416857",
+                "textPosition": "bottom"
+              },
+              {
+                "heading": "Argan oil",
+                "description": "A deeply nourishing oil known to soften hair, reduce frizz, and add a refined, glossy finish.",
+                "imageLink": "https://ik.imagekit.io/75zj3bigp/argan%20oil.png",
+                "textPosition": "bottom"
+              },
+              {
+                "heading": "Almond oil",
+                "description": "A conditioning oil that helps smooth the hair surface while improving softness and manageability.",
+                "imageLink": "https://ik.imagekit.io/75zj3bigp/Almond%20oil.png",
+                "textPosition": "bottom"
+              },
+              {
+                "heading": "Hydrolyzed Quinoa",
+                "description": "A plant-based protein that helps strengthen hair, improve elasticity, and enhance smoothness and shine.",
+                "imageLink": "https://ik.imagekit.io/75zj3bigp/Hydrolysed%20quinoa.png",
+                "textPosition": "bottom"
+              }
+            ]
+          },
+          "children": []
+        },
+        {
+          "type": "our-services",
+          "props": {
+            "imageSrc": "https://ik.imagekit.io/a9uxeuyhx/Container%20(6).png?updatedAt=1764942760849",
+            "eyebrow": "",
+            "title": "The Essence of\nBrazilian Beauty",
+            "cardIcon": "https://ik.imagekit.io/a9uxeuyhx/Container%20(5).png?updatedAt=1764942659468",
+            "cardHeading": "Why We Exist",
+            "cardShortDesc": "Professional hair care demands more than surface-level results—it requires trust, expertise, and consistency.",
+            "cardLongDesc": "Chevx O keratin exists to support hair professionals with\nthoughtfully developed, innovative formulas that deliver control, smoothness, and reliability in every service. Our focus is on creating products that perform with precision, respect the integrity of the hair, and help professionals achieve confident, beautifully finished results every day."
+          },
+          "children": []
+        },
+        {
+          "type": "grid-video",
+          "props": {
+            "label": "About",
+            "title": "Our Approach",
+            "subtitle": "Chevx O keratin focuses on creating better-performing hair care with formulas that deliver quick, reliable, and long-lasting results. Developed to meet professional salon standards, our products are designed to be easy to work with, consistent in performance, and effective across services. Alongside professional treatments, our home care range is formulated to maintain results, ensuring hair looks and feels polished well beyond the salon.",
+            "centerTitle": false,
+            "videoSrc": "https://ik.imagekit.io/a9uxeuyhx/Vector%20(3).png?updatedAt=1764939409718"
+          },
+          "children": []
+        },
+        {
+          "type": "why-choose",
+          "props": {
+            "label": "The Chevx O Keratin Difference",
+            "title": "Technical Brand Pillars",
+            "description": "We combine powerful Amazonian botanicals with cutting-edge keratin technology to create haircare that transforms without damage.",
+            "buttonText": "Get to Know Us",
+            "features": [
+              {
+                "icon": "https://ik.imagekit.io/75zj3bigp/Icon%20(13).png?updatedAt=1764920114659",
+                "title": "Professional-Grade Results",
+                "desc": "Consistent, visible results designed to meet the demands of salon services."
+              },
+              {
+                "icon": "https://ik.imagekit.io/75zj3bigp/Icon%20(12).png?updatedAt=1764920114705",
+                "title": "High-Performance Formulations",
+                "desc": "Advanced formulas developed for smoother application, better control, and lasting finish."
+              },
+              {
+                "icon": "https://ik.imagekit.io/75zj3bigp/Icon%20(14).png?updatedAt=1764920114767",
+                "title": "Fast-Acting Efficacy",
+                "desc": "Delivers quick, satisfying results without compromising hair integrity."
+              },
+              {
+                "icon": "https://ik.imagekit.io/75zj3bigp/Icon%20(13).png?updatedAt=1764920114659",
+                "title": "Stylist-Approved Precision",
+                "desc": "Created to be easy to work with, reliable, and predictable for professionals."
+              },
+              {
+                "icon": "https://ik.imagekit.io/75zj3bigp/Icon%20(13).png?updatedAt=1764920114659",
+                "title": "Long-Lasting Finish",
+                "desc": "Results that hold their smoothness, shine, and manageability beyond the salon."
+              }
+            ]
+          },
+          "children": []
+        },
+        {
+          "type": "logo-section",
+          "props": {
+            "src": "https://ik.imagekit.io/a9uxeuyhx/Logo_2%20(1).png?updatedAt=1764929035331",
+            "alt": "Logo",
+            "width": 299,
+            "height": 269,
+            "className": ""
+          },
+          "children": []
+        },
+        {
+          "type": "tabs-section",
+          "props": {
+            "label": "",
+            "title": "Product Range",
+            "subtitle": "Designed to transform, restore, and care for your hair.",
+            "minColWidth": 280,
+            "gap": 20,
+            "columns": 3,
+            "centerTitle": true,
+            "items": [],
+            "tabsData": [
+              [
+                {
+                  "heading": "NANOSTRAIT",
+                  "description": "A next-generation, formaldehyde-free straightening treatment powered by thermal sealing technology to rebuild, realign, and reconstruct the hair fiber from within. It delivers maximum straightness, luxury frizz control, enhanced strength and elasticity, and sleek, luminous hair with long-lasting results.",
+                  "imageLink": "https://ik.imagekit.io/75zj3bigp/folder%203/New%20Folder%204/WhatsApp%20Image%202026-01-05%20at%2011.39.12%20AM.jpeg?updatedAt=1767593499347"
+                },
+                {
+                  "heading": "nanoPLASTIA",
+                  "description": "A precision straightening and smoothing service powered by advanced nanotechnology. Formaldehyde-free and formulated with glyoxylic acid and collagen, it restructures the hair fiber at a cortical level, neutralizes unwanted warmth, and delivers maximum straightness with high-gloss shine for 6–8 months.",
+                  "imageLink": "https://ik.imagekit.io/75zj3bigp/folder%203/New%20Folder%204/imgs3.jpeg?updatedAt=1767593499422"
+                },
+                {
+                  "heading": "collagenteX",
+                  "description": "An intensive collagen-based reconstruction treatment created for extreme repair and elasticity restoration. Enriched with Collagen, Hydrolyzed Keratin, Milk Protein, Coconut Extract, and Shea Butter Oil, it revives damaged hair, enhances strength and shine, and delivers long-lasting results for 4–6 months.",
+                  "imageLink": "https://ik.imagekit.io/75zj3bigp/folder%203/New%20Folder%204/imgs2.jpeg?updatedAt=1767593499348"
+                },
+                {
+                  "heading": "BOTOX",
+                  "description": "A restorative anti-ageing hair therapy designed to reverse damage, dryness, and loss of vitality. This formaldehyde-free treatment infuses proteins, vitamins, antioxidants, and oils to rebuild the hair from the cuticle to the cortex, delivering smoother, stronger, visibly youthful hair for 6–8 months.",
+                  "imageLink": "https://ik.imagekit.io/75zj3bigp/folder%203/New%20Folder%204/imgs4.jpeg?updatedAt=1767593499350"
+                },
+                {
+                  "heading": "KERATIN TREATMENT",
+                  "description": "A professional keratin reconstructing service that smoothens frizz, strengthens the hair fibre, and delivers refined shine with even fade-out results lasting 3–5 months.",
+                  "imageLink": "https://ik.imagekit.io/75zj3bigp/folder%203/New%20Folder%204/imgs5.jpeg?updatedAt=1767593499286"
+                }
+              ],
+              [
+                {
+                  "heading": "Argan Oil Shampoo",
+                  "description": "Professional nourishing shampoo that restores softness, shine, and moisture.",
+                  "imageLink": "https://ik.imagekit.io/75zj3bigp/folder%203/New%20Folder%204/WhatsApp%20Image%202026-01-05%20at%2011.17.13%20AM%20(1)%20first%20.jpeg?updatedAt=1767765746421"
+                },
+                {
+                  "heading": "Argan Oil Masque",
+                  "description": "Deep-conditioning masque for intense hydration, smoothness, and repair.",
+                  "imageLink": "https://ik.imagekit.io/75zj3bigp/new%20two/WhatsApp%20Image%202026-01-05%20at%2011.17.13%20AM%20(1).jpeg?updatedAt=1767592428128"
+                },
+                {
+                  "heading": "Clarifying Shampoo",
+                  "description": "Deep-cleansing shampoo that removes buildup and preps hair for technical services.",
+                  "imageLink": "https://ik.imagekit.io/75zj3bigp/new%20remaining/img-5.jpeg"
+                },
+                {
+                  "heading": "Repair Shampoo",
+                  "description": "Gentle repair shampoo that strengthens and revives damaged hair.",
+                  "imageLink": "https://ik.imagekit.io/75zj3bigp/folder%203/New%20Folder%204/WhatsApp%20Image%202026-01-07%20at%2011.48.09%20AM.jpeg"
+                },
+                {
+                  "heading": "Repair Masque",
+                  "description": "Intensive repair masque that rebuilds strength and improves manageability.",
+                  "imageLink": "https://ik.imagekit.io/75zj3bigp/folder%203/New%20Folder%204/WhatsApp%20Image%202026-01-07%20at%2011.48.09%20AM%2011.jpeg"
+                },
+                {
+                  "heading": "Keratin Clarifying Shampoo",
+                  "description": "Advanced clarifying shampoo designed to prep hair for keratin treatments.",
+                  "imageLink": "https://ik.imagekit.io/75zj3bigp/img-8.jpeg"
+                },
+                {
+                  "heading": "Keratin Hair Repair Shampoo",
+                  "description": "Keratin-infused repair shampoo for stronger, smoother hair.",
+                  "imageLink": "https://ik.imagekit.io/75zj3bigp/folder%203/New%20Folder%204/WhatsApp%20Image%202026-01-08%20at%2012.25.57%20PM.jpeg"
+                },
+                {
+                  "heading": "Keratin Hair Repair Conditioner",
+                  "description": "Repairing conditioner that seals strength, softness, and shine.",
+                  "imageLink": "https://ik.imagekit.io/75zj3bigp/folder%203/New%20Folder%204/WhatsApp%20Image%202026-01-08%20at%2012.25.57%20PM%2011.jpeg"
+                }
+              ],
+              [
+                {
+                  "heading": "Botox Hair Spa",
+                  "description": "An intensive revitalising therapy that deeply nourishes, softens, and restores youthful hair texture.",
+                  "imageLink": "https://ik.imagekit.io/75zj3bigp/botox%20hair%20spa.png?updatedAt=1767591377715"
+                },
+                {
+                  "heading": "Keratin Spa",
+                  "description": "A professional smoothing and repair treatment that restores strength, shine, and long-lasting manageability.",
+                  "imageLink": "https://ik.imagekit.io/75zj3bigp/10.png"
+                }
+              ],
+              [
+                {
+                  "heading": "Argan Oil Shampoo",
+                  "description": "A gentle, sulfate-conscious cleanser that restores hydration, smoothness, and manageability while protecting post-salon results.",
+                  "imageLink": "https://ik.imagekit.io/75zj3bigp/folder%203/WhatsApp%20Image%202026-01-05%20at%2011.29.15%20AM.jpeg?updatedAt=1767593126399"
+                },
+                {
+                  "heading": "Repair Shampoo",
+                  "description": "A sulphate and paraben-free professional shampoo for extremely damaged and unruly hair, enriched with argan oil extract and antioxidants. Cleanses and rebalances the hair fibre, improving smoothness, resilience, and reflective shine while preserving treatment results.",
+                  "imageLink": "https://ik.imagekit.io/75zj3bigp/new%20two/img-2.jpeg?updatedAt=1767592899492"
+                },
+                {
+                  "heading": "Argan Oil Masque",
+                  "description": "A deep-conditioning masque that replenishes moisture, enhances softness, and maintains the integrity of salon-treated hair.",
+                  "imageLink": "https://ik.imagekit.io/75zj3bigp/new%20two/img-3.jpeg?updatedAt=1767592899554"
+                },
+                {
+                  "heading": "Repair Masque",
+                  "description": "An intensive strengthening treatment designed to reinforce weakened strands and support long-lasting salon performance.",
+                  "imageLink": "https://ik.imagekit.io/75zj3bigp/folder%203/img-4.jpeg?updatedAt=1767593126590"
+                },
+                {
+                  "heading": "Argan Oil",
+                  "description": "A lightweight, professional finishing oil that delivers instant shine, frizz control, and polished smoothness without heaviness.",
+                  "imageLink": "https://ik.imagekit.io/75zj3bigp/folder%203/img-5.jpeg?updatedAt=1767593126325"
+                },
+                {
+                  "heading": "Açai Oil",
+                  "description": "An antioxidant-rich finishing oil that protects against daily stressors while enhancing hair vitality, gloss, and smooth texture.",
+                  "imageLink": "https://ik.imagekit.io/75zj3bigp/folder%203/img-6.jpeg?updatedAt=1767593126488"
+                },
+                {
+                  "heading": "Keratin Hair Repair Shampoo",
+                  "description": "A professional-strength cleanser that gently purifies while reinforcing the hair fiber, helping maintain strength, smoothness, and post-salon repair.",
+                  "imageLink": "https://ik.imagekit.io/75zj3bigp/folder%203/img-8.jpeg?updatedAt=1767593126515"
+                },
+                {
+                  "heading": "Keratin Hair Repair Conditioner",
+                  "description": "An intensive repair treatment enriched with natural fruit extracts and antioxidants to restore and rebalance damaged, unruly hair. It deeply nourishes the hair fibre, enhancing strength, silkiness, and shine while extending the longevity of therapy results.",
+                  "imageLink": "https://ik.imagekit.io/75zj3bigp/folder%203/img-7.jpeg?updatedAt=1767593126508"
+                }
+              ]
+            ]
+          },
+          "children": []
+        },
+        {
+          "type": "transform-section",
+          "props": {
+            "title": "Ready for the Brazilian Hair Transformation?",
+            "desc": "Smoothness. Strength. Shine — all in one treatment.",
+            "btnText": "Whatsapp",
+            "btnIcon": "https://ik.imagekit.io/75zj3bigp/Arrow%20Right.png?updatedAt=1764926708570",
+            "bgImage": "https://ik.imagekit.io/75zj3bigp/9d1fa0ae48a97c21c12cda6e344635bc37f5900a.jpg?updatedAt=1764925759309",
+            "buttonLink": "https://wa.me/918981907793?text=Hi%20I%20want%20to%20know%20more"
+          },
+          "children": []
+        }
+      ]
+    }
+  ],
+  "owner": {
+    "$oid": "69413aa0b0e0c783a19e4db0"
+  },
+  "colors": {
+    "lime": "#B89C8B",
+    "blue-500": "#F4F2EF",
+    "blue-400": "#F4F2EF",
+    "blue-300": "#F4F2EF",
+    "black-300": "#aaaaaa",
+    "black-400": "#636363",
+    "black-500": "#222222",
+    "white": "#ffffff",
+    "light-white": "#d9d9d9",
+    "black-100": "#E5E5E5"
+  },
+  "fonts": {
+    "google": []
+  },
+  "typography": {
+    "h1": {
+      "desktop": {
+        "fontSize": "64px",
+        "lineHeight": "130%",
+        "fontWeight": "600",
+        "color": "var(--color-black-500)",
+        "font": "var(--font-lato)"
+      },
+      "laptop": {
+        "fontSize": "48px",
+        "lineHeight": "130%",
+        "fontWeight": "600",
+        "color": "var(--color-black-500)",
+        "font": "var(--font-lato)"
+      },
+      "tablet": {
+        "fontSize": "40px",
+        "lineHeight": "130%",
+        "fontWeight": "600",
+        "color": "var(--color-black-500)",
+        "font": "var(--font-lato)"
+      },
+      "mobile": {
+        "fontSize": "36px",
+        "lineHeight": "130%",
+        "fontWeight": "600",
+        "color": "var(--color-black-500)",
+        "font": "var(--font-lato)"
+      }
+    },
+    "h2": {
+      "desktop": {
+        "fontSize": "48px",
+        "lineHeight": "120%",
+        "fontWeight": "600",
+        "color": "var(--color-black-500)",
+        "font": "var(--font-lato)"
+      },
+      "laptop": {
+        "fontSize": "40px",
+        "lineHeight": "120%",
+        "fontWeight": "600",
+        "color": "var(--color-black-500)",
+        "font": "var(--font-lato)"
+      },
+      "tablet": {
+        "fontSize": "32px",
+        "lineHeight": "120%",
+        "fontWeight": "600",
+        "color": "var(--color-black-500)",
+        "font": "var(--font-lato)"
+      },
+      "mobile": {
+        "fontSize": "24px",
+        "lineHeight": "120%",
+        "fontWeight": "600",
+        "color": "var(--color-black-500)",
+        "font": "var(--font-lato)"
+      }
+    },
+    "h3": {
+      "desktop": {
+        "fontSize": "24px",
+        "lineHeight": "120%",
+        "fontWeight": "600",
+        "color": "var(--color-black-500)",
+        "font": "var(--font-lato)"
+      },
+      "laptop": {
+        "fontSize": "22px",
+        "lineHeight": "120%",
+        "fontWeight": "600",
+        "color": "var(--color-black-500)",
+        "font": "var(--font-lato)"
+      },
+      "tablet": {
+        "fontSize": "22px",
+        "lineHeight": "120%",
+        "fontWeight": "600",
+        "color": "var(--color-black-500)",
+        "font": "var(--font-lato)"
+      },
+      "mobile": {
+        "fontSize": "20px",
+        "lineHeight": "120%",
+        "fontWeight": "600",
+        "color": "var(--color-black-500)",
+        "font": "var(--font-lato)"
+      }
+    },
+    "h4": {
+      "desktop": {
+        "fontSize": "20px",
+        "lineHeight": "120%",
+        "fontWeight": "500",
+        "color": "var(--color-black-500)",
+        "font": "var(--font-lato)"
+      },
+      "laptop": {
+        "fontSize": "18px",
+        "lineHeight": "120%",
+        "fontWeight": "500",
+        "color": "var(--color-black-500)",
+        "font": "var(--font-lato)"
+      },
+      "tablet": {
+        "fontSize": "18px",
+        "lineHeight": "120%",
+        "fontWeight": "500",
+        "color": "var(--color-black-500)",
+        "font": "var(--font-lato)"
+      },
+      "mobile": {
+        "fontSize": "16px",
+        "lineHeight": "120%",
+        "fontWeight": "500",
+        "color": "var(--color-black-500)",
+        "font": "var(--font-lato)"
+      }
+    },
+    "h5": {
+      "desktop": {
+        "fontSize": "18px",
+        "lineHeight": "160%",
+        "fontWeight": "500",
+        "color": "var(--color-black-500)",
+        "font": "var(--font-jakarta)"
+      },
+      "laptop": {
+        "fontSize": "18px",
+        "lineHeight": "160%",
+        "fontWeight": "500",
+        "color": "var(--color-black-500)",
+        "font": "var(--font-jakarta)"
+      },
+      "tablet": {
+        "fontSize": "16px",
+        "lineHeight": "160%",
+        "fontWeight": "500",
+        "color": "var(--color-black-500)",
+        "font": "var(--font-jakarta)"
+      },
+      "mobile": {
+        "fontSize": "16px",
+        "lineHeight": "160%",
+        "fontWeight": "500",
+        "color": "var(--color-black-500)",
+        "font": "var(--font-jakarta)"
+      }
+    },
+    "h6": {
+      "desktop": {
+        "fontSize": "16px",
+        "lineHeight": "120%",
+        "fontWeight": "600",
+        "color": "var(--color-black-500)",
+        "font": "var(--font-jakarta)"
+      },
+      "laptop": {
+        "fontSize": "16px",
+        "lineHeight": "120%",
+        "fontWeight": "600",
+        "color": "var(--color-black-500)",
+        "font": "var(--font-jakarta)"
+      },
+      "tablet": {
+        "fontSize": "16px",
+        "lineHeight": "120%",
+        "fontWeight": "600",
+        "color": "var(--color-black-500)",
+        "font": "var(--font-jakarta)"
+      },
+      "mobile": {
+        "fontSize": "14px",
+        "lineHeight": "120%",
+        "fontWeight": "600",
+        "color": "var(--color-black-500)",
+        "font": "var(--font-jakarta)"
+      }
+    },
+    "body-1": {
+      "desktop": {
+        "fontSize": "32px",
+        "lineHeight": "120%",
+        "fontWeight": "400",
+        "color": "var(--color-black-500)",
+        "font": "var(--font-lato)"
+      },
+      "laptop": {
+        "fontSize": "24px",
+        "lineHeight": "120%",
+        "fontWeight": "400",
+        "color": "var(--color-black-500)",
+        "font": "var(--font-lato)"
+      },
+      "tablet": {
+        "fontSize": "18px",
+        "lineHeight": "120%",
+        "fontWeight": "400",
+        "color": "var(--color-black-500)",
+        "font": "var(--font-lato)"
+      },
+      "mobile": {
+        "fontSize": "14px",
+        "lineHeight": "120%",
+        "fontWeight": "400",
+        "color": "var(--color-black-500)",
+        "font": "var(--font-lato)"
+      }
+    },
+    "body-2": {
+      "desktop": {
+        "fontSize": "24px",
+        "lineHeight": "160%",
+        "fontWeight": "400",
+        "color": "var(--color-black-500)",
+        "font": "var(--font-jakarta)"
+      },
+      "laptop": {
+        "fontSize": "20px",
+        "lineHeight": "160%",
+        "fontWeight": "400",
+        "color": "var(--color-black-500)",
+        "font": "var(--font-jakarta)"
+      },
+      "tablet": {
+        "fontSize": "16px",
+        "lineHeight": "160%",
+        "fontWeight": "400",
+        "color": "var(--color-black-500)",
+        "font": "var(--font-jakarta)"
+      },
+      "mobile": {
+        "fontSize": "12px",
+        "lineHeight": "160%",
+        "fontWeight": "400",
+        "color": "var(--color-black-500)",
+        "font": "var(--font-jakarta)"
+      }
+    },
+    "body-3": {
+      "desktop": {
+        "fontSize": "18px",
+        "lineHeight": "160%",
+        "fontWeight": "400",
+        "color": "var(--color-black-500)",
+        "font": "var(--font-jakarta)"
+      },
+      "laptop": {
+        "fontSize": "16px",
+        "lineHeight": "160%",
+        "fontWeight": "400",
+        "color": "var(--color-black-500)",
+        "font": "var(--font-jakarta)"
+      },
+      "tablet": {
+        "fontSize": "14px",
+        "lineHeight": "160%",
+        "fontWeight": "400",
+        "color": "var(--color-black-500)",
+        "font": "var(--font-jakarta)"
+      },
+      "mobile": {
+        "fontSize": "12px",
+        "lineHeight": "160%",
+        "fontWeight": "400",
+        "color": "var(--color-black-500)",
+        "font": "var(--font-jakarta)"
+      }
+    },
+    "body-4": {
+      "desktop": {
+        "fontSize": "16px",
+        "lineHeight": "150%",
+        "fontWeight": "400",
+        "color": "var(--color-black-400)",
+        "font": "var(--font-jakarta)"
+      },
+      "laptop": {
+        "fontSize": "16px",
+        "lineHeight": "150%",
+        "fontWeight": "400",
+        "color": "var(--color-black-400)",
+        "font": "var(--font-jakarta)"
+      },
+      "tablet": {
+        "fontSize": "14px",
+        "lineHeight": "150%",
+        "fontWeight": "400",
+        "color": "var(--color-black-400)",
+        "font": "var(--font-jakarta)"
+      },
+      "mobile": {
+        "fontSize": "12px",
+        "lineHeight": "150%",
+        "fontWeight": "400",
+        "color": "var(--color-black-400)",
+        "font": "var(--font-jakarta)"
+      }
+    },
+    "body-5": {
+      "desktop": {
+        "fontSize": "14px",
+        "lineHeight": "150%",
+        "fontWeight": "400",
+        "color": "var(--color-black-500)",
+        "font": "var(--font-jakarta)"
+      },
+      "laptop": {
+        "fontSize": "14px",
+        "lineHeight": "150%",
+        "fontWeight": "400",
+        "color": "var(--color-black-500)",
+        "font": "var(--font-jakarta)"
+      },
+      "tablet": {
+        "fontSize": "12px",
+        "lineHeight": "150%",
+        "fontWeight": "400",
+        "color": "var(--color-black-500)",
+        "font": "var(--font-jakarta)"
+      },
+      "mobile": {
+        "fontSize": "12px",
+        "lineHeight": "150%",
+        "fontWeight": "400",
+        "color": "var(--color-black-500)",
+        "font": "var(--font-jakarta)"
+      }
+    }
+  },
+  "spacingTokens": {},
+  "radiusTokens": {},
+  "domain": null,
+  "logo": "https://ik.imagekit.io/flyde/Chevox/Vector%20(3).png?updatedAt=1764855970126",
+  "favicon": "https://ik.imagekit.io/flyde/uploads/1767780629233-Vector__2__8ylRqA3U8.png",
+  "domainStatus": "pending",
+  "deploy": {
+    "status": "done",
+    "message": "Finalising Deployment",
+    "githubURL": "https://github.com/sahilflyde/client-chevx-o-keratin",
+    "projectID": "prj_LvihIJdZkbYQHKhmUhZV4M1fmfnt",
+    "vercelUrl": "client-chevx-o-keratin.vercel.app"
+  },
+  "createdAt": {
+    "$date": "2025-12-16T10:57:49.395Z"
+  },
+  "updatedAt": {
+    "$date": "2026-04-15T13:40:32.219Z"
+  },
+  "__v": 0,
+  "analytics": {},
+  "theme": {},
+  "layout": {
+    "header": {
+      "type": "header-sec",
+      "props": {
+        "logo": "https://ik.imagekit.io/flyde/Chevox/Vector%20(3).png?updatedAt=1764855970126",
+        "navLinks": [],
+        "ctaText": "WA",
+        "ctaLink": "https://wa.me/919804972103?text=Hi%20I%20want%20to%20know%20more"
+      },
+      "children": []
+    },
+    "footer": {
+      "type": "footer-section",
+      "props": {
+        "logo": "https://ik.imagekit.io/flyde/Chevox/Vector%20(3).png?updatedAt=1764855970126",
+        "description": "Professional hair care, refined for salon performance.",
+        "socials": [
+          {
+            "name": "IN",
+            "href": "#"
+          },
+          {
+            "name": "FB",
+            "href": "#"
+          },
+          {
+            "name": "X",
+            "href": "#"
+          }
+        ],
+        "quickLinks": [
+          {
+            "name": "Home",
+            "href": "/"
+          },
+          {
+            "name": "Privacy",
+            "href": "/privacy"
+          },
+          {
+            "name": "Terms",
+            "href": "/terms"
+          },
+          {
+            "name": "Whatsapp",
+            "href": "https://wa.me/918981907793?text=Hi%20I%20want%20to%20know%20more"
+          }
+        ],
+        "contacts": [
+          {
+            "text": "+91 8981907793",
+            "icon": "https://ik.imagekit.io/75zj3bigp/Icon%20(7).png?updatedAt=1764071470889"
+          },
+          {
+            "text": "support@chevx.com",
+            "icon": "https://ik.imagekit.io/75zj3bigp/Container%20(1).png?updatedAt=1764070999276"
+          },
+          {
+            "text": "Chevx O keratin pvt ltd 55, \n2 nd Floor, Westend marg near saket metro station, Delhi, India 110030",
+            "icon": "https://ik.imagekit.io/75zj3bigp/Container%20(2).png?updatedAt=1764071811723"
+          }
+        ],
+        "subscribeTitle": "Subscribe for Updates",
+        "subscribeSubtitle": "Get the latest hiring tips and product updates delivered to your inbox.",
+        "copyright": "Copyright © 2035 Chevx o Keratin. All Rights Reserved."
+      },
+      "children": []
+    }
+  }
+}]
