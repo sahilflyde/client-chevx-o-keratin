@@ -1,3 +1,4 @@
+"use client";
 import { Button } from "./button";
 import Label from "./lable";
 import Container from "./spacing";

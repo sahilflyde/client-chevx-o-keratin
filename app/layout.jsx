@@ -1,5 +1,6 @@
 import "./globals.scss";
-import RenderBlock from "../components/RenderBlock";
+import Header from "../components/header";
+import Footer from "../components/footer";
 
 export default async function RootLayout({ children }) {
   const baseUrl = "https://chevxokeratin.com";
@@ -30,7 +31,7 @@ export default async function RootLayout({ children }) {
     .map(([key, value]) => `--color-${key}: ${value};`)
     .join("\n");
 
-  // ✅ Fonts (important)
+  // ✅ Fonts
   const fontLinks = site?.fonts?.google || [];
 
   return (
@@ -53,20 +54,16 @@ export default async function RootLayout({ children }) {
       </head>
 
       <body>
-        {/* HEADER */}
-        {site.layout?.header && (
-          <RenderBlock
-            block={site.layout.header}
-            site={site}
-            logo={site.logo}
-          />
+        {/* ✅ HEADER */}
+        {site?.layout?.header && (
+          <Header {...site.layout.header.props} site={site} />
         )}
 
         {children}
 
-        {/* FOOTER */}
-        {site.layout?.footer && (
-          <RenderBlock block={site.layout.footer} site={site} />
+        {/* ✅ FOOTER */}
+        {site?.layout?.footer && (
+          <Footer {...site.layout.footer.props} site={site} />
         )}
       </body>
     </html>

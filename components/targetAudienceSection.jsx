@@ -1,3 +1,5 @@
+"use client";
+
 import ImageCard from "./card";
 import GridSection from "./gridWrapper";
 import Container from "./spacing";
@@ -23,8 +25,8 @@ export default function TargetAudienceSectionComp(props) {
   const items = Array.isArray(rawItems)
     ? rawItems
     : typeof rawItems === "object" && rawItems !== null
-    ? Object.values(rawItems)
-    : [];
+      ? Object.values(rawItems)
+      : [];
 
   return (
     <Container variant="primary">

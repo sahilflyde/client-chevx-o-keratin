@@ -1,3 +1,4 @@
+"use client";
 import clsx from "clsx";
 
 const Typography = ({
@@ -17,7 +18,7 @@ const Typography = ({
       className={clsx(
         finalVariant,
         className,
-        colorVariant && `text-${colorVariant}`
+        colorVariant && `text-${colorVariant}`,
       )}
       {...rest}
       style={{ whiteSpace: "pre-line" }}
@@ -40,7 +41,7 @@ function getDefaultTag(variant) {
     "body-3": "p",
     "body-4": "p",
     "body-5": "p",
-    
+
     "style-2": "p",
     "style-3": "p",
     "style-4": "p",
