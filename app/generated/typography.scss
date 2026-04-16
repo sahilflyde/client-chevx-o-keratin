@@ -1,18 +1,18 @@
 .h1 {
   font-size: 64px;
-  line-height: 130%;
-  font-weight: 600;
-  color: var(--color-black-500);
-  font-family: var(--font-lato);
+  font-style: normal;
+  font-weight: 400;
+  line-height: 130%; /* 83.2px */
+  // font-family: var(--font-lato);
 }
 
 @media (max-width: 1440px) {
   .h1 {
     font-size: 48px;
     line-height: 130%;
-    font-weight: 600;
+    // font-weight: 600;
     color: var(--color-black-500);
-    font-family: var(--font-lato);
+    // font-family: var(--font-lato);
   }
 }
 
@@ -20,9 +20,9 @@
   .h1 {
     font-size: 40px;
     line-height: 130%;
-    font-weight: 600;
+    // font-weight: 600;
     color: var(--color-black-500);
-    font-family: var(--font-lato);
+    // font-family: var(--font-lato);
   }
 }
 
@@ -30,27 +30,28 @@
   .h1 {
     font-size: 36px;
     line-height: 130%;
-    font-weight: 600;
+    // font-weight: 600;
     color: var(--color-black-500);
-    font-family: var(--font-lato);
+    // font-family: var(--font-lato);
   }
 }
 
 .h2 {
   font-size: 48px;
-  line-height: 120%;
-  font-weight: 600;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120%; /* 57.6px */
   color: var(--color-black-500);
-  font-family: var(--font-lato);
+  // font-family: var(--font-lato);
 }
 
 @media (max-width: 1440px) {
   .h2 {
     font-size: 40px;
     line-height: 120%;
-    font-weight: 600;
+    // font-weight: 600;
     color: var(--color-black-500);
-    font-family: var(--font-lato);
+    // font-family: var(--font-lato);
   }
 }
 
@@ -58,9 +59,9 @@
   .h2 {
     font-size: 32px;
     line-height: 120%;
-    font-weight: 600;
+    // font-weight: 600;
     color: var(--color-black-500);
-    font-family: var(--font-lato);
+    // font-family: var(--font-lato);
   }
 }
 
@@ -68,9 +69,9 @@
   .h2 {
     font-size: 24px;
     line-height: 120%;
-    font-weight: 600;
+    // font-weight: 600;
     color: var(--color-black-500);
-    font-family: var(--font-lato);
+    // font-family: var(--font-lato);
   }
 }
 

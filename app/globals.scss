@@ -45,14 +45,14 @@
 
 @font-face {
   font-family: "CinemaSunday";
-  src: url("https://ik.imagekit.io/flyde/cinema%20sunday.ttf") format("ttf");
-  font-weight: 400 600;
+  src: url("https://ik.imagekit.io/flyde/cinema%20sunday.ttf") format("truetype");
+  font-weight: 400;
   font-style: normal;
   font-display: swap;
 }
 
 :root {
-  --font-heading: CinemaSunday;
+  --font-heading: "CinemaSunday", sans-serif;
 }
 
 body {

@@ -669,72 +669,59 @@ video {
 }
 .h1 {
   font-size: 64px;
-  line-height: 130%;
-  font-weight: 600;
-  color: var(--color-black-500);
-  font-family: var(--font-lato);
+  font-style: normal;
+  font-weight: 400;
+  line-height: 130%; /* 83.2px */
 }
 
 @media (max-width: 1440px) {
   .h1 {
     font-size: 48px;
     line-height: 130%;
-    font-weight: 600;
     color: var(--color-black-500);
-    font-family: var(--font-lato);
   }
 }
 @media (max-width: 1024px) {
   .h1 {
     font-size: 40px;
     line-height: 130%;
-    font-weight: 600;
     color: var(--color-black-500);
-    font-family: var(--font-lato);
   }
 }
 @media (max-width: 768px) {
   .h1 {
     font-size: 36px;
     line-height: 130%;
-    font-weight: 600;
     color: var(--color-black-500);
-    font-family: var(--font-lato);
   }
 }
 .h2 {
   font-size: 48px;
-  line-height: 120%;
-  font-weight: 600;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120%; /* 57.6px */
   color: var(--color-black-500);
-  font-family: var(--font-lato);
 }
 
 @media (max-width: 1440px) {
   .h2 {
     font-size: 40px;
     line-height: 120%;
-    font-weight: 600;
     color: var(--color-black-500);
-    font-family: var(--font-lato);
   }
 }
 @media (max-width: 1024px) {
   .h2 {
     font-size: 32px;
     line-height: 120%;
-    font-weight: 600;
     color: var(--color-black-500);
-    font-family: var(--font-lato);
   }
 }
 @media (max-width: 768px) {
   .h2 {
     font-size: 24px;
     line-height: 120%;
-    font-weight: 600;
     color: var(--color-black-500);
-    font-family: var(--font-lato);
   }
 }
 .h1,
@@ -3579,13 +3566,13 @@ video {
 
 @font-face {
   font-family: "CinemaSunday";
-  src: url("https://ik.imagekit.io/flyde/cinema%20sunday.ttf") format("ttf");
-  font-weight: 400 600;
+  src: url("https://ik.imagekit.io/flyde/cinema%20sunday.ttf") format("truetype");
+  font-weight: 400;
   font-style: normal;
   font-display: swap;
 }
 :root {
-  --font-heading: CinemaSunday;
+  --font-heading: "CinemaSunday", sans-serif;
 }
 
 body {

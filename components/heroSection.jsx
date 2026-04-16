@@ -20,7 +20,7 @@ export default function HeroSection(props) {
     leftImage = "",
     rightImage = "",
 
-    compVariant = "default",
+    compVariant = "full",
   } = props;
 
   console.log(headingVariant, descriptionVariant);
@@ -40,7 +40,7 @@ export default function HeroSection(props) {
         >
           <Typography
             variant="h1" // default
-            overrideVariant={headingVariant} // ⭐ dynamic variant overrides default
+             
           >
             {heading}
           </Typography>
