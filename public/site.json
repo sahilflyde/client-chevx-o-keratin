@@ -312,7 +312,7 @@
             "btnText": "Whatsapp",
             "btnIcon": "https://ik.imagekit.io/75zj3bigp/Arrow%20Right.png?updatedAt=1764926708570",
             "bgImage": "https://ik.imagekit.io/75zj3bigp/9d1fa0ae48a97c21c12cda6e344635bc37f5900a.jpg?updatedAt=1764925759309",
-            "buttonLink": "https://wa.me/918981907793?text=Hi%20I%20want%20to%20know%20more"
+            "buttonLink": "https://api.whatsapp.com/send/?phone=918981907793&text=Hi+I+want+to+know+more&type=phone_number&app_absent=0"
           },
           "children": []
         }
@@ -698,7 +698,7 @@
         "logo": "https://ik.imagekit.io/flyde/Chevox/Vector%20(3).png?updatedAt=1764855970126",
         "navLinks": [],
         "ctaText": "WA",
-        "ctaLink": "https://wa.me/919804972103?text=Hi%20I%20want%20to%20know%20more"
+        "ctaLink": "https://api.whatsapp.com/send/?phone=918981907793&text=Hi+I+want+to+know+more&type=phone_number&app_absent=0"
       },
       "children": []
     },
@@ -736,7 +736,7 @@
           },
           {
             "name": "Whatsapp",
-            "href": "https://wa.me/918981907793?text=Hi%20I%20want%20to%20know%20more"
+            "href": "https://api.whatsapp.com/send/?phone=918981907793&text=Hi+I+want+to+know+more&type=phone_number&app_absent=0"
           }
         ],
         "contacts": [
